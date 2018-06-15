@@ -1,38 +1,316 @@
 <!DOCTYPE html>
-<html>
-<Head>
-	<title>Haoran's Homework</title>
-	<style>
-     td {text-align:center}
-  	</style>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Haoran Ma Resume</title>
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="favicon.ico" rel="icon" type="image/x-icon">
+    <link href="css/googlefont.css" rel="stylesheet">
+    <link href="libs/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-	<font size="8px">
-	<p align="center">Haoran's Homework</p>
-	<table width="1200px" align="center" text-align="center" border="2px" cellspacing="0">
-    <tr>
-        <td><a href="">Link to Homework #1</a></td>
-        <td><a href="">Link to Homework #2</a></td>
-    </tr>
-    <tr>
-        <td><a href="HW3/mysite.html">Link to Homework #3</a></td>
-        <td><a href="HW4/index.html">Link to Homework #4</a></td>
-    </tr>
-    <tr>
-        <td><a href="">Link to Homework #5</a></td>
-        <td><a href="http://cs-server.usc.edu:16123/index.php">Link to Homework #6</a></td>
-    </tr>
-    <tr>
-        <td><a href="">Link to Homework #7</a></td>
-        <td><a href="HW8/index.html">Link to Homework #8</a><br>
-            <a href="HW8/api.html" target="_blank">Link to APIs</a>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="">Link to Homework #9</a></td>
-        <td><a href="">Link to Homework #10</a></td>
-    </tr>
-</table>
-</font>
-</body>	
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Haoran Ma</h1>
+            <h2>Software Engineer</h2>
+            <!-- <a href="#" class="btn-rounded-white">Download Resume</a> -->
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        A Student in University of Southern California, majoring in Computer Science. Have received systematic training in the computer science disincline and achieved academic excellence. Will be a great fit for the Software Engineering Intern position. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="May 2018 – Aug 2018">
+                <h3>Amazon</h3>
+                <h4>Software Engineer Internship</h4>
+                <p>
+                    Working in FBA(Fulfillment by Amazon) technical team.
+                </p>
+            </div>
+
+            <div data-date="Jan 2018 – Apr 2018">
+                <h3>The Drome LLC</h3>
+                <h4>SDE Intern (USC Directed Research)</h4>
+                <p>
+                    ● Created 3D Plane objects as screens to play videos using Three.js in webGL canvas, created 3D start, stop and load new file button in 3D Space to control the video play.<br>
+                    ● Implemented listeners to get input from mouse and control rotation of 3D Camera.
+                </p>
+            </div>
+
+            <div data-date="Aug 2016 – Apr 2017">
+                <h3>Institute of Automation</h3>
+                <h3>Chinese Academy of Sciences</h3>
+                <h4>Research Intern</h4>
+                <p>
+                    ● Employed Random Forest and SVM model in Python to predict shop's future customer flow based on historic records, extracted features to train models.<br>
+                    ● Wrote SQL scripts to extract blood pressure data from health information database to build the training set for RNN/LSTM model.<br>
+                    ● Developed a crawler program with Twitter APIs in Python to crawl data, got information of 650000 tweets.
+                </p>
+            </div>
+
+            <div data-date="May 2016 – Jul 2016">
+                <h3>Tsinghua University</h3>
+                <h4>Research And Development Intern</h4>
+                <p>
+                    ● Developed a program to use optical sensors on Samsung SUR40 to collect light intensity data of fingers.<br>
+                    ● Wrote a program in MATLAB to process and filter data from saved images and improve the accuracy of sVRI measurement.<br>
+                    ● Reviewed research papers on using innovative human-computer interaction methods to measure people’s cognitive load; presented my findings on weekly seminars and proposed noise-reduction methods for processing image data.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3><a href="https://www.usc.edu" target="_blank">University of Southern California</a></h3>
+            <span class="education-date">Aug 2017 - Dec 2019</span>
+            <h4>Master of Science in Computer Science</h4>
+            <p>GPA: 4.0 / 4.0</p>
+            <ul>
+                <li>CSCI 570    Analysis of Algorithms</li>
+                <li>CSCI 585    Database Systems</li>
+                <li>CSCI 571    Web Technologies</li>
+                <li>CSCI 455X   Introduction to Programming Systems Design</li>
+                <li>CSCI 590    Direct Research</li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3><a href="https://english.bupt.edu.cn" target="_blank">Beijing University of Posts and Telecommunications</a></h3>
+            <span class="education-date">Sept 2013 - Jul 2017</span>
+            <h4>Bachelor of Engineer in Electronic Engineering</h4>
+            <p>Top 5%</p>
+            <ul>
+                <li>C Programming Language</li>
+                <li>C++ Programming</li>
+                <li>Data Structures</li>
+                <li>Database Technologies and Applications</li>
+                <li>Fundamentals of Information Application Based on Networks</li>
+                <li>Principles and Interface Technique of Microcomputer</li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/entertainSearch.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Travel and Entertainment Search Website</h3>
+                        <p>
+                            ● Implemented responsive, cross-platform, Ajax based front-end with JavaScript Bootstrap and Angular.<br>
+                            ● Wrote back-end with PHP which can send a request to Google Places API and Yelp API to get the place information, reviews and photos, used JavaScript to parse the returned JSON object, displayed search results in tabularformat. Then re-develop the back-end with Node.js.<br>
+                            ● Utilized Google Maps JavaScript API to display location and routine to a certain place on map.<br>
+                            ● Designed Twitter buttons allow the user to compose a Tweet contains place information and post it to Twitter.<br>
+                            ● Deployed Apache2 HTTP server with NGINX as a reverse proxy to achieve load balancing and separation of static and dynamic content.
+                        </p>
+                        <a href="http://www-scf.usc.edu/~haoranma/HW8/index.html" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/shoppingCart.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Online Shopping Cart</h3>
+                        <p>
+                            ● Built a shopping cart website with Node.js Express and MongoDB, in which users can choose commodities and add them to shopping cart.<br>
+                            ● Developed a responsive front-end with HTML, CSS, Bootstrap and JavaScript, which can display all items for sale and provide interface for user login/signup.<br>
+                            ● Implemented a back-end with Node.js Express, which handles all user operations and stores changes in MongoDB.
+                        </p>
+                        <a href="https://github.com/HER0MA/ShoppingCart" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="projects/exporValueVisualization/demo.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Data Visualization Web about Export Values</h3>
+                        <p>
+                            ● Developed a web app with JavaScript and D3.js to show visualized data of export values of several countries.<br>
+                            ● Call Observatory of Economic Complexity API to get JSON files containing all countries’ export information, decode and format it appropriately.<br>
+                            ● Generated a scatterplot on logarithmic coordinate system with D3.js SVG showing export values variations (X axis for export value of one year and Y axis for export value of the other year)
+                            ● Show detailed information about a country when mouse moves on a scatter.<br>
+                            ● Implemented update transition to focus user's attention on change of data.
+                        </p>
+                        <a href="projects/exporValueVisualization/index.html" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>AngularJs</li>
+            <li>Bootstrap</li>
+            <li>JQuery</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>PHP</li>
+            <li>MongoDB</li>
+            <li>AWS</li>
+            <li>D3.js</li>
+            <li>Three.js</li>
+            <li>MATLAB</li>
+            <li>SQL</li>
+            <li>Git</li>
+            <li>Linux</li>
+            <li>Intelliji IDEA</li>
+            <li>Xcode</li>
+            <li>Eclipse</li>
+            <li>Visual Studio</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2018 Haoran Ma
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
 </html>
